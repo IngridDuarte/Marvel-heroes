@@ -1,4 +1,4 @@
-import CategoryComponent from './Category'
+import CategoryComponent from './History'
 export default [
     {
         name: 'home',

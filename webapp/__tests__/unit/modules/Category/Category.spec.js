@@ -1,6 +1,6 @@
 
 import { mount } from '@vue/test-utils'
-import Category from '../../../../src/modules/Category/category';
+import Category from '../../../../src/modules/History/category';
 
 describe('Category component', () => {
     let component;
