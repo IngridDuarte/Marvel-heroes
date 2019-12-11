@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-rest-server": "^1.1.0"
+  }
+}
