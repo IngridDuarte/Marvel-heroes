@@ -13,4 +13,16 @@ public class Hero {
         this.name = name;
         this.history = history;
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public String getNome() {
+        return name;
+    }
+
+    public String getHistory() {
+        return history;
+    }
 }
