@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'Pessoas',
+  name: 'History',
   data: () => ({ 
     message: 'Hello World'  
   }),
