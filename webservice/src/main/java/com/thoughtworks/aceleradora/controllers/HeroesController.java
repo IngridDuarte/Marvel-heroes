@@ -14,10 +14,9 @@ public class HeroesController {
 
     @GetMapping("")
     public String getHeroName(Timestamp timestamp, String PUBLIC_KEY, StringBuilder hash) {
-
         RestTemplate restTemplate = new RestTemplate();
-        String teste =  restTemplate.getForObject(
+        String teste = restTemplate.getForObject(
                 "http://gateway.marvel.com/v1/public/characters?ts="+timestamp+"&apikey="+PUBLIC_KEY+"&hash="+hash, String.class);
-        return teste;
+        return  teste;
     }
 }
