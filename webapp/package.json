@@ -21,7 +21,7 @@
     "bootstrap-vue": "^2.0.0-rc.22",
     "core-js": "^2.6.5",
     "json-server": "^0.15.1",
-    "node-rest-server": "^1.1.0",
+    "node-rest-server": "^3.2.0",
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
